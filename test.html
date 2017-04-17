@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="css/style.css">
+	<title>Orocode Egzersiz</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+ <form method="get" action="islem.php">
+ <table class= "table-first" style="width:20%">
+ 
+   <tr>
+   <th>Ağırlığınız:</th> 
+   <th><input type="text" name="kilo" size="5"></th>
+   <th>kg</th>
+   </tr>
+   <tr>
+   <th>Boyunuz:</th>     
+  <th><input type="text" name="boy" size="5"></th>
+  <th>cm</th>
+  </tr>
+  <tr>
+  <th>Cinsiyet:</th>
+ 
+  
+     <th><input type="radio" name="cinsiyet" value="E" checked></th> <th> Erkek </th>
+    <th> <input type="radio" name="cinsiyet" value="K"></th><th> Kadın </th>
+ 
+
+  </tr>
+  <tr class="tarih">
+  <th>Doğum Tarihi:</th>
+  <th><input type="text" name="gun" size="5"> </th>
+  <th><input type="text" name="ay" size="5"></th>
+  <th><input type="text" name="yil" size="5"></th>
+  <th>G/A/Y</th>
+  </tr>
+  <tr>
+  <th>İstirahat atış hızı</th>
+  <th><input type="text" name="kalp"  size="5"></th>
+  <th>/dk</th>
+  </tr>
+  <tr>
+  	<th>Bel Çevresi</th>
+  	<th><input type="text" name="bel"  size="5"></th>
+  	<th>cm</th>
+  </tr>
+ <tr>
+ 	<th>Aktivite Düzeyi</th>
+ 	<th>
+ 		£
+  <select name="aktivite" id= "dropdown">
+    <option value="cokaz">Çok Az Aktif      - Masa başı bir işte çalışıyorum, fazla hareket etmiyorum(Büro işleri, araç kullanma vs.)</option>
+    <option value="az">Az Aktif - Az hareket ettiğim bir iş yapıyorum, hafif egzersizler yapıyorum (Öğrenci, ev işi, yürüme, şöförlük)</option>
+    <option value="aktif">Aktif - Orta derecede hareket gerektiren bir iş yapıyorum (dans, tempolu yürüyüş, atletizm gibi sporları haftada en az 3 kere yapanlar)</option>
+    <option value="cokaktif">Çok Aktif - Çok aktif olduğum bir iş yapıyorum, haftada 5 gün spor yapıyorum(Ağır tarım işçisi, Yorucu endüstri işçisi vs.)</option>
+    <option value="agir">Çok Ağır Egzersiz Yapanlar - Aşırı düzeyde spor yapıyorum, spor müsabakasına hazırlanıyorum</option>
+  </select>
+  <br><br>
+
+ 	</th>
+ </tr>
+  
+  <td>
+  <input type="submit" value="Submit">
+  </td>
+  
+	</table>
+</form> 
+
+</body>
+</html>

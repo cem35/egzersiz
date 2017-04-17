@@ -1,0 +1,101 @@
+
+li{
+	margin-top: 10px;
+}
+fieldset{
+	
+	-webkit-margin-start: 0px;
+}
+#ideal {
+	margin-left: 40px;
+}
+#hedef{
+	margin-left:  33px;
+}
+#guncel{
+	margin-left: 27px;
+}
+#haftalik{
+	margin-left: 10px;
+}
+#kalorihedefbaslik{
+	text-align: center;
+
+}
+#proteinyuzde{
+	margin-left: 38px;
+}
+#yagyuzde{
+	margin-left:  58px;
+}
+input { 
+    text-align: center; 
+}
+.positive{
+	 display:block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#yemek{
+	float: left;
+
+
+}
+#kalori{
+	float: left;
+	margin-right:  20px;
+}
+#kk{
+	margin-left: 72px;
+}
+
+#kp{
+	margin-left: 56px;
+}
+#ky{
+	margin-left: 78px;
+}
+#saok{
+	margin-left: 23px;
+}
+#saoy{
+	margin-left: 25px;
+}
+#saop{
+	margin-left: 5px;
+}
+#ok{
+	margin-left: 90px;
+}
+#oy{
+	margin-left: 94px;
+}
+#op{
+	margin-left: 73px;
+}
+
+#oaok{
+	margin-left: 30px;
+}
+#oaop{
+	margin-left: 12px;
+}
+#oaoy{
+	margin-left: 35px;
+}
+#ak{
+	margin-left: 85px;
+}
+#ay{
+	margin-left: 90px;
+}
+#ap{
+	margin-left: 68px;
+}
+#aaok{
+	margin-left: 20px;
+}
+#aaoy{
+	margin-left: 22px;
+}
