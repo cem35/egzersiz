@@ -76,17 +76,11 @@ if($cinsiyet == "K")
 {
 	$BMI=$kilo/boy_hesap($boy);
 	$REE=65.5+9.56*$kilo+1.85*$boy - 4.68 * yas_hesap($dtarih);
-	//$REE += $REE/10;
-	//$BEE=$REE*0.1*$aktivite;
 	$BEE+=($REE*0.1);
 	$BEE+=($REE*$aktivite);
 	$idealk=(217/10)*boy_hesap($boy);
 }
-/*
-echo "Body Mass İndex =".$BMI."<br>". 
- "Resting Energy Expenditure = ".$REE."<br>".
- "Bazal Energy Expenditure = ".$BEE."<br>".
- "İdeal kilo = ".$idealk;*/
+
 
 $kilo_status=0;
 $haftalik_kilo=0;
@@ -166,12 +160,6 @@ elseif ($kilo_status==5) {
 	$kilo_status="Süper Şişman";
 }
 
-  /*echo "<br> Günlük kalori ihtiyacı= ".$gunluk_kal;
-  echo "<br> Günlük karbonhidrat miktarı (%50) =".((yuzde_hesap($karbonhidrat,$gunluk_kal))/4)." <br>
-  Günlük Protein miktarı (%20) =".(yuzde_hesap($protein,$gunluk_kal)/4)."<br> 
-  Günlük Yağ miktarı (%30) =".(yuzde_hesap($yag,$gunluk_kal)/9);
-*/
-  
   $karbmik=((yuzde_hesap($karbonhidrat,$gunluk_kal))/4);
   $promik=yuzde_hesap($protein,$gunluk_kal)/4;
   $yagmik=yuzde_hesap($yag,$gunluk_kal)/9;

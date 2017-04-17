@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="css/style2.css">
+	<title>Orocode Egzersiz</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+ <form method="get" action="sonuc2.php" id="kalori" >
+
+ <fieldset>
+<legend>Günlük Kalori İhtiyacı Hesaplama </legend>
+<ol>
+<li>
+<label><em>*</em> Cinsiyetiniz:</label>
+<label for="cinsiyet">
+<input type="radio" id="cinsiyet" name="cinsiyet" value="K" checked="checked"/> Kadın</label> 
+<label for="cinsiyetB">
+<input type="radio" id="cinsiyetB" name="cinsiyet" value="E"/> Erkek</label>
+
+</li>
+
+<li>
+<label  for="yas"><em>*</em> Doğum Tarihi:</label>
+<input type="text" id="yas" name="yas" size="6"/> Örn. 1.1.1970
+</li>
+<li>
+<label for="boy"><em>*</em> Boyunuz:</label>
+<input type="text" id="boy" name="boy" size="5"/> cm (Örn. 172)
+</li>
+<li>
+<label for="kilo"><em>*</em> Kilonuz:</label>
+<input type="text" id="kilo" name="kilo" size="5"/> kg (Örn. 69)
+</li>
+<li>
+<label for="kalp"><em>*</em> İstirahat kalp atış hızı:</label>
+<input type="text" id="kalp" name="kalp" size="5"/> /dk (Örn. 80)
+</li>
+
+<li>
+<label for="bel"><em>*</em> Bel çevresi:</label>
+<input type="text" id="bel" name="bel" size="5"/> /cm (Örn. 90)
+</li>
+<li>
+<label for="calisma"><em>*</em> Çalışma Biçimi:</label> <select name="aktivite" value="1" id="calisma" >
+<option selected="selected" value="cokaz">Çok Az Aktif - Masa başı bir işte çalışıyorum, fazla hareket etmiyorum (Büro işleri, araç kullanma vs.)</option>
+<option value="az"> Az Aktif - Az hareket ettiğim bir iş yapıyorum, hafif egzersizler yapıyorum(Öğrenci, ev işi, yürüme, şöförlük)</option>
+<option value="aktif"> Aktif - Orta derecede hareket gerektiren bir iş yapıyorum dans, tempolu yürüyüş, atletizm gibi sporları haftada en az 3 kere yapanlar)</option>
+<option value="cokaktif"> Çok aktif -Çok aktif olduğum bir iş yapıyorum, haftada 5 gün spor yapıyorum (Ağır tarım işçisi, Yorucu endüstri işçisi vs.)</option>
+<option value="agir">Çok Ağır  -  Aşırı düzeyde spor yapıyorum, spor müsabakasına hazırlanıyorum</option>
+</select>
+</li>
+
+</ol>
+
+<div class="buttons">
+<button type="submit" class="positive" >Hesapla</button>
+<button type="reset" class="negative" >Temizle</button>
+</div>
+
+</fieldset>
+</form> 
+
+</body>
+</html>

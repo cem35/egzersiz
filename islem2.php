@@ -157,25 +157,6 @@ else
 
 
 
-/**
-<li>
-<label for="calisma"><em>*</em> Çalışma Biçimi:</label> <select name="calisma" value="1" id="calisma">
-<option selected="selected" value="1">Masa başı bir işte çalışıyorum, fazla hareket etmiyorum(Büro işleri, araç kullanma vs.)</option>
-<option value="2">Az hareket ettiğim bir iş yapıyorum, hafif egzersizler yapıyorum (Öğrenci, ev işi, yürüme, şöförlük)</option>
-<option value="3">Orta derecede hareket gerektiren bir iş yapıyorum (dans, tempolu yürüyüş, atletizm gibi sporları haftada en az 3 kere yapanlar)</option>
-<option value="4">Çok aktif olduğum bir iş yapıyorum, haftada 5 gün spor yapıyorum(Ağır tarım işçisi, Yorucu endüstri işçisi vs.)</option>
-<option value="5">Aşırı düzeyde spor yapıyorum, spor müsabakasına hazırlanıyorum</option>
-</select>
-</li>
-
-<select name="aktivite" >
-    <option value="cokaz">Çok Az Aktif</option>
-    <option value="az">Az Aktif</option>
-    <option value="aktif">Aktif</option>
-    <option value="cokaktif">Çok Aktif</option>
-    <option value="agir">Çok Ağır Egzersiz Yapanlar</option>
-  </select>*/
-
 
 
  ?>
